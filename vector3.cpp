@@ -4,7 +4,7 @@
 using namespace std;
 int main(){
     vector<int> vec; //vector create
-    vector<int>::iterator it; 
+    vector<int>::iterator it; //iterator create
     for (int i = 0; i < 5; i++)
     {
         vec.push_back(i);
