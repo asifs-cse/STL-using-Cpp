@@ -12,7 +12,7 @@ int main(){
 
     for (it = vec.begin(); it!=vec.end(); it++) // start for loop
     {
-        cout<<*it<<endl;
+        cout<<*it<<endl; //itterator output
     }
     
     
