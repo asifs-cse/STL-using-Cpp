@@ -7,7 +7,7 @@
 using namespace std;
 int main(){
     vector<int> vect;
-    vector<int>::iterator it;
+    vector<int>::iterator it; //iterator create
 
     for(int i=0; i<5;i++)
         vect.push_back(i);
