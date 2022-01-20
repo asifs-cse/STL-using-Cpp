@@ -22,6 +22,9 @@ int main(){
     //using short algorithm library;
     sort(vec.begin(), vec.end(), desfun);
 
+    //using short limit
+    sort(vec.begin(), vec.begin()+3);
+
     for (it = vec.begin(); it != vec.end(); it++)
     {
         cout<<*it<<endl;
