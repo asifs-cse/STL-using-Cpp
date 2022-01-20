@@ -21,9 +21,14 @@ int main(){
     }
     for (itd = vecd.begin(); itd!=vecd.end(); itd++)
     {
-        //cout<<vecd[i]<<"\t"<<endl; //show output
+        cout<<vecd[*itd]<<"\t"; //show output
+    }
+    cout<<endl;
+    for (itd = vecd.begin(); itd!=vecd.end(); itd++)
+    {
         cout<<*itd<<" \t";
     }
+   
     
 
     return 0;
