@@ -19,6 +19,10 @@ int main(){
     {
         vecd.push_back(i); //push data in vector folder
     }
+    for (int i = 0; i < 5; i++)
+    {
+        cout<<vecd[i]<<"\t"; //show output
+    }
     
 
     return 0;
