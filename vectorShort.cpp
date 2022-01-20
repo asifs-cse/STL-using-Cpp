@@ -3,6 +3,11 @@
 #include<algorithm>
 
 using namespace std;
+
+//using desending order short function
+bool desfun(int a, int b){
+    return(a>b);
+}
 int main(){
     vector<int> vec;
     vector<int>:: iterator it;
@@ -15,7 +20,7 @@ int main(){
     vec.push_back(230);
 
     //using short algorithm library;
-    sort(vec.begin(), vec.end());
+    sort(vec.begin(), vec.end(), desfun);
 
     for (it = vec.begin(); it != vec.end(); it++)
     {
