@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 #include<iterator>
+#include<string>
 
 using namespace std;
 int main(){
@@ -12,5 +13,13 @@ int main(){
 
     vector <char> vecc;
     vector <char>::iterator itc;
+    itd = vecd.begin();
+
+    for (int i = 0; i < 5; i++)
+    {
+        vecd.push_back(i); //push data in vector folder
+    }
+    
+
     return 0;
 }
