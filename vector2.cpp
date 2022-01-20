@@ -10,7 +10,7 @@ int main(){
     vector<int>::iterator it; //iterator create
 
     for(int i=0; i<5;i++)
-        vect.push_back(i);
+        vect.push_back(i); //push vector 
     
     it=vect.begin();
     it++;
