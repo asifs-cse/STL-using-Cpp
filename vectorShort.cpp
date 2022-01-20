@@ -14,6 +14,9 @@ int main(){
     vec.push_back(560);
     vec.push_back(230);
 
+    //using short algorithm library;
+    sort(vec.begin(), vec.end());
+
     for (it = vec.begin(); it != vec.end(); it++)
     {
         cout<<*it<<endl;
