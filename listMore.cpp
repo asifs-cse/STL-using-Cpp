@@ -16,6 +16,7 @@ int main(){
     myList.push_front(30);
     
     myList.reverse(); //list revers;
+    cout<<myList.size()<<endl; //find list size;
 
     for (it = myList.begin(); it!=myList.end(); it++)
     {
