@@ -8,6 +8,10 @@ int main(){
     list<int> myList(arr, arr+5);
     list<int>::iterator it;
 
+    it =myList.begin();
+    it++;
+    myList.insert(it, 7);
+
     for (it=myList.begin(); it!=myList.end(); it++)
     {
         cout<<*it<<" ";
