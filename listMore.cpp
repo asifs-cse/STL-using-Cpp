@@ -22,7 +22,7 @@ int main(){
 
     for (it = myList.begin(); it!=myList.end(); it++)
     {
-        cout<<*it<<"\t";
+        cout<<*it<<"\t"; //
     }
     cout<<"\n";
      for (it = myList2.begin(); it!=myList2.end(); it++)
