@@ -17,7 +17,7 @@ int main(){
     // it=myList.begin();
     // it++;
 
-    myList.insert(it, 504);
+    myList.insert(it, 504); //insert data in new location
     cout<<*it<<endl;
     for (it= myList.begin(); it!=myList.end(); it++)
     {
