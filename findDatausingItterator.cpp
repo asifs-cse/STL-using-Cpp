@@ -11,7 +11,7 @@ int main(){
     {
         cin>>arr[i];
     }
-    list<int> s_roll(arr, arr+5);
+    list<int> s_roll(arr, arr+5); //list create
     list<int>::iterator it;
     cout<<"Successfully array list data insert to list!"<<endl;
     for (it=s_roll.begin(); it!=s_roll.end(); it++)
