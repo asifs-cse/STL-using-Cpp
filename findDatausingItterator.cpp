@@ -20,7 +20,7 @@ int main(){
     }
     cout<<"\nEnter found rell no: ";
     cin>>find_s;
-    it = find(s_roll.begin(), s_roll.end(),find_s);
+    it = find(s_roll.begin(), s_roll.end(),find_s); //find list item
     if (it==s_roll.end())
     {
         cout<<"Sorry Roll not found! ";
