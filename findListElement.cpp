@@ -9,5 +9,7 @@ int main(){
 
     //find list first element
     cout<<"First element: "<<myList.front()<<endl;
+    //find list last element
+    cout<<"Last element: "<<myList.back();
     return 0;
 }
