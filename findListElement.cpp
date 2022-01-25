@@ -8,6 +8,8 @@ int main(){
     list<int> myList(arr, arr+5);
 
     //find list first element
+    //remove first element
+    myList.pop_front();
     cout<<"First element: "<<myList.front()<<endl;
     //find list last element
     cout<<"Last element: "<<myList.back();
