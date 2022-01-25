@@ -11,7 +11,10 @@ int main(){
     //remove first element
     myList.pop_front();
     cout<<"First element: "<<myList.front()<<endl;
+
     //find list last element
+    //remove list last element
+    myList.pop_back();
     cout<<"Last element: "<<myList.back();
     return 0;
 }
