@@ -12,7 +12,7 @@ int main(){
     a.insert(1242);
     a.insert(1242);
     a.insert(1242);
-    a.insert(1242);
+    a.insert(142);
 
     for (it =a.begin(); it!=a.end(); it++)
     {
