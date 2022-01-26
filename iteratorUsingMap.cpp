@@ -13,7 +13,10 @@ int main(){
     myMap.insert(make_pair("raja", 501));
 
     mit = myMap.begin();
+    mit++;
     cout<<mit->first<<endl;
+    //output key value
+    cout<<mit->second<<endl;
     // for (int mit=myMap.begin(); myMap!=myMap.end(); mit++)
     // {
     //     /* code */
