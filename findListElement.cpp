@@ -16,5 +16,15 @@ int main(){
     //remove list last element
     myList.pop_back();
     cout<<"Last element: "<<myList.back();
+
+    cout<<endl;
+    //check empty list
+    if (myList.empty())
+    {
+        cout<<"EMPTY"<<endl;
+    }else{
+        cout<<"List no EMPTY";
+    }
+    
     return 0;
 }
