@@ -9,6 +9,8 @@ int main(){
     s.push("nabil");
     s.push("plabon");
 
+    s.pop();
+
     cout<<s.top();
 
     return 0;
