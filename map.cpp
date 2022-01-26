@@ -7,5 +7,8 @@ int main(){
     map<string, int> myMap;
 
     myMap["asif"] = 504;
-    cout<<myMap["asif"];
+    myMap.insert(make_pair("mehedi",4));
+
+    cout<<myMap["asif"]<<endl;
+    cout<<myMap["mehedi"];
 }
