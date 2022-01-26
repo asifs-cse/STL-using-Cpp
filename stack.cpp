@@ -9,9 +9,16 @@ int main(){
     s.push("nabil");
     s.push("plabon");
 
-    s.pop();
+    // s.pop();
 
-    cout<<s.top();
+    // cout<<s.top();
+
+    while(!s.empty()){
+        string x;
+        x= s.top();
+        cout<<x<<endl;
+        s.pop();
+    }
 
     return 0;
 }
