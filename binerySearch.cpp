@@ -12,8 +12,11 @@ int main(){
     else cout<<"not found"<<endl;
 
     //lower bound
-    vector<int>:: iterator it = lower_bound(v.begin(), v.end(), 5);
+    auto it = lower_bound(v.begin(), v.end(), 5);
     cout<<*it<<endl;
+
+    //find iterator location
+    cout<<distance(v.begin(), it)<<endl;
 
     
     return 0;
