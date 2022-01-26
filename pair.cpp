@@ -6,7 +6,7 @@ int main(){
     //difrent way to insert data
     mPair = make_pair("raje", 501);
 
-    //difrent way to inser data in pair
+    //difrent way to inser data
     mPair.first = "tamzid";
     mPair.second = 536;
     cout<<mPair.first<<" "<<mPair.second;
