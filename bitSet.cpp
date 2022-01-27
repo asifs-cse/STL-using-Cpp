@@ -16,6 +16,6 @@ int main(){
     //     cout<<"false"<<endl;
     // }
 
-    cout<<((b.any())?"true":"false")<<endl;
+    cout<<((b.any())?"true":"false")<<endl; //check any iten set or reset
     return 0;
 }
