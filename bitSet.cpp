@@ -4,6 +4,7 @@ using namespace std;
 int main(){
     bitset<8> b;
     b.set();
+    b.reset();
     cout<<b;
     return 0;
 }
